@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador y Validador de Cupones</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Generador y Validador de Cupones</h1>
+    <button onclick="generarCupon()">Generar Cupón</button>
+    <p id="cupon"></p>
+    
+    <input type="text" id="codigo" placeholder="Ingrese el cupón">
+    <button onclick="validarCupon()">Validar</button>
+    <p id="mensaje"></p>
+    
+    <img id="estadoImagen" src="" alt="Estado del cupón" style="display: none; width: 200px;">
+
+
+    <script src="../Back/codigo.js"></script>
+
+</body>
+</html>
